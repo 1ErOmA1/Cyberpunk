@@ -1,0 +1,141 @@
+.group__container1 {
+    display: flex; 
+    height: 100%;
+    @media screen and (max-width: 950px) {
+        display: block;
+    }
+    @media screen and (max-width: 950px) {
+        height: 850px;
+        overflow: hidden;
+    }
+        @media screen and (max-width: 390px) {
+        height: 1050px;
+    }
+}
+
+.group-new {
+    flex: 1;
+    border: 0px solid #ccc;
+}
+
+@media screen and (max-width: 950px) {
+    .group1-new{
+        height: 300px;
+        overflow: hidden;
+    }
+}
+
+.group2-new{
+    padding: 70px 32px;
+    background: $black;
+    height: 717px;
+    @media screen and (max-width: 1140px) {
+        padding: 30px 20px;
+    }
+    @media screen and (max-width: 950px) {
+        text-align: center;
+    }
+}
+
+.background4{
+    width: 644px;
+    height: 717px;
+    @media screen and (max-width: 1100px) {
+        width: 444px;
+    }
+}
+
+.title__buy-game{
+    color: $white;
+    font-family: "Archangelsk";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    @media screen and (max-width: 1140px) {
+        margin-top: 0px;
+        font-size: 29px;
+    }
+}
+
+.title__second{
+    color: #52BEDC;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title__second-pos{
+    margin-top: 25px;
+    @media screen and (max-width: 1140px) {
+        margin-top: 10px;
+    }
+}
+
+.ico__buy{
+    color: $white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ico__buy-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    .color__buy-game {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .ico__buy-game {
+        justify-content: center;
+        text-align: start;
+        align-items: center;
+        .color__buy-game {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.ico__buy-game {
+    margin-top: 21px;
+    @media screen and (max-width: 1140px) {
+        margin-top: 10px;
+    }
+}
+
+.title__second-pos2{
+    margin-top: 70px;
+    @media screen and (max-width: 1140px) {
+        margin-top: 10px;
+    }
+}
+
+.platforms{
+    margin-top: 25px;
+    img{
+        margin-right: 80px;
+        margin-bottom: 47px;
+        @media screen and (max-width: 950px) {
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}

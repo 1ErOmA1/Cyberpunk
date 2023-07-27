@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 770px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.header__social-media{
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: 40px;
+        @media screen and (max-width: 400px) {
+            margin-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .header__youtube{
+        img{
+            margin-left: 0;
+        }
+    }
+}
